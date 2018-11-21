@@ -1,6 +1,6 @@
 package main.java.facade;
 
-import controller.Game;
+import main.java.controller.Game;
 import main.java.logic.brick.Brick;
 import main.java.logic.level.Level;
 
@@ -153,7 +153,7 @@ public class HomeworkTwoFacade {
      * @return the number of available balls
      */
     public int getBallsLeft() {
-        return 0;
+        return game.getBalls();
     }
 
     /**

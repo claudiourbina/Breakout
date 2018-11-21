@@ -1,4 +1,4 @@
-package controller;
+package main.java.controller;
 
 /**
  * Game logic controller class.
@@ -6,9 +6,10 @@ package controller;
  * @author Juan-Pablo Silva
  */
 public class Game {
+    private int balls;
 
     public Game(int balls) {
-
+        this.balls = balls;
     }
 
     /**
@@ -20,5 +21,9 @@ public class Game {
      */
     public boolean winner() {
         return false;
+    }
+
+    public int getBalls() {
+        return this.balls;
     }
 }
