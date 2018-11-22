@@ -1,5 +1,6 @@
 package main.java.logic.brick;
 import java.util.Observable;
+import java.util.Observer;
 
 public abstract class AbstractBrick extends Observable implements Brick, Runnable{
     private int lifePoints;
@@ -19,6 +20,10 @@ public abstract class AbstractBrick extends Observable implements Brick, Runnabl
     public void hit(){
         if(!this.isDestroyed()){
             lifePoints -= 1;
+            if(lifePoints == 0){
+                setChanged();
+                notifyObservers(this);
+            }
         }
     }
 
@@ -61,5 +66,8 @@ public abstract class AbstractBrick extends Observable implements Brick, Runnabl
         }
     }
 
+    public void suscribe(Observer o){
+        addObserver(o);
+    }
 
 }

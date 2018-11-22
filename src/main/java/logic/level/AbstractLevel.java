@@ -7,16 +7,18 @@ import main.java.logic.brick.WoodenBrick;
 
 import java.util.*;
 
-public class AbstractLevel implements Level, Observer {
+public abstract class AbstractLevel extends Observable implements Level, Observer, Runnable {
     private List<Brick> bricksList = new ArrayList<>();
     private String levelName;
     private Level nextLevel;
     private int scoreLevel;
+    private int actualScore;
 
     public AbstractLevel(String name, int numberOfBricks, double probOfGlass, double probOfMetal, int seed){
         this.levelName = name;
         this.scoreLevel = 0;
         this.nextLevel = null;
+        this.actualScore = 0;
 
         if(numberOfBricks > 0){
             Random rand = new Random(seed);
@@ -24,10 +26,12 @@ public class AbstractLevel implements Level, Observer {
                 double randomNumber = rand.nextDouble();
                 if(randomNumber <= probOfGlass){
                     GlassBrick gBrick = new GlassBrick();
+                    gBrick.suscribe(this);
                     this.bricksList.add(gBrick);
                     scoreLevel += 50;
                 }else{
                     WoodenBrick wBrick = new WoodenBrick();
+                    wBrick.suscribe(this);
                     this.bricksList.add(wBrick);
                     scoreLevel += 200;
                 }
@@ -37,16 +41,23 @@ public class AbstractLevel implements Level, Observer {
                 double randomNumber = rand.nextDouble();
                 if(randomNumber <= probOfMetal){
                     MetalBrick mBrick = new MetalBrick();
+                    mBrick.suscribe(this);
                     this.bricksList.add(mBrick);
                 }
             }
         }
     }
 
+    public void suscribe(Observer o){
+        addObserver(o);
+    }
+
     @Override
     public void update(Observable o, Object arg) {
         if (arg instanceof Brick) {
-
+            setChanged();
+            actualScore += ((Brick) arg).getScore();
+            notifyObservers();
         }
     }
 

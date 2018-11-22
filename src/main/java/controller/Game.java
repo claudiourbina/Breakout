@@ -45,6 +45,7 @@ public class Game {
     }
 
     public void setCurrentLevel(Level level){
+        level.suscribe(this);
         this.currentLevel = level;
     }
 

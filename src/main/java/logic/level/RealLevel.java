@@ -10,4 +10,5 @@ public class RealLevel extends AbstractLevel {
     public boolean isPlayableLevel() {
         return true;
     }
+
 }
