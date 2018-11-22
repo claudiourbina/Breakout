@@ -1,8 +1,11 @@
 package main.java.controller;
 
+import main.java.logic.brick.Brick;
 import main.java.logic.level.RealLevel;
 import main.java.logic.level.EmptyLevel;
 import main.java.logic.level.Level;
+
+import java.util.List;
 
 /**
  * Game logic controller class.
@@ -54,7 +57,9 @@ public class Game {
     }
 
     public int dropBall() {
-        this.balls -=1;
+        if(this.balls > 0){
+            this.balls -=1;
+        }
         return this.balls;
     }
 
@@ -64,5 +69,9 @@ public class Game {
         }else{
             return false;
         }
+    }
+
+    public int numberOfBricks() {
+        return this.getCurrentLevel().bricksAlive();
     }
 }

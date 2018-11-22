@@ -8,7 +8,7 @@ import main.java.logic.brick.WoodenBrick;
 import java.util.*;
 
 public class AbstractLevel implements Level, Observer {
-    private List<Brick> bricksList = new ArrayList<Brick>();
+    private List<Brick> bricksList = new ArrayList<>();
     private String levelName;
     private Level nextLevel;
     private int scoreLevel;
@@ -22,7 +22,7 @@ public class AbstractLevel implements Level, Observer {
             Random rand = new Random(seed);
             for(int i = 0; i < numberOfBricks; i++){
                 double randomNumber = rand.nextDouble();
-                if(randomNumber < probOfGlass){
+                if(randomNumber <= probOfGlass){
                     GlassBrick gBrick = new GlassBrick();
                     this.bricksList.add(gBrick);
                     scoreLevel += 50;
@@ -35,7 +35,7 @@ public class AbstractLevel implements Level, Observer {
 
             for(int i = 0; i < numberOfBricks; i++){
                 double randomNumber = rand.nextDouble();
-                if(randomNumber < probOfMetal){
+                if(randomNumber <= probOfMetal){
                     MetalBrick mBrick = new MetalBrick();
                     this.bricksList.add(mBrick);
                 }
@@ -82,7 +82,7 @@ public class AbstractLevel implements Level, Observer {
 
     @Override
     public int getPoints() {
-        return 0;
+        return scoreLevel;
     }
 
     @Override
@@ -98,5 +98,16 @@ public class AbstractLevel implements Level, Observer {
     @Override
     public void setNextLevel(Level level) {
         this.nextLevel = level;
+    }
+
+    @Override
+    public int bricksAlive() {
+        int counter = 0;
+        for(Brick brick: bricksList){
+            if(!brick.isDestroyed()){
+                counter+=1;
+            }
+        }
+        return counter;
     }
 }

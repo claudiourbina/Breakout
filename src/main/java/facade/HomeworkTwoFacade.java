@@ -58,7 +58,7 @@ public class HomeworkTwoFacade {
      * @return the number of intact bricks in the current level
      */
     public int numberOfBricks() {
-        return 0;
+        return game.numberOfBricks();
     }
 
     /**
