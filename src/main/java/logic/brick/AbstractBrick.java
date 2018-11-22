@@ -1,6 +1,7 @@
 package main.java.logic.brick;
+import java.util.Observable;
 
-public abstract class AbstractBrick implements Brick {
+public abstract class AbstractBrick extends Observable implements Brick, Runnable{
     private int lifePoints;
     private int score;
 
@@ -50,4 +51,15 @@ public abstract class AbstractBrick implements Brick {
     public int remainingHits(){
         return lifePoints;
     }
+
+    @Override
+    public void run() {
+        try {
+            wait();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }

@@ -1,7 +1,6 @@
 package main.java.logic.level;
 
 import main.java.logic.brick.Brick;
-
 import java.util.List;
 
 /**
