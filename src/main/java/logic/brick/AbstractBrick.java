@@ -1,4 +1,6 @@
 package main.java.logic.brick;
+import main.java.logic.level.Level;
+
 import java.util.Observable;
 import java.util.Observer;
 
@@ -68,6 +70,10 @@ public abstract class AbstractBrick extends Observable implements Brick, Runnabl
 
     public void suscribe(Observer o){
         addObserver(o);
+    }
+
+    public void accept(Level level){
+        level.asd;
     }
 
 }

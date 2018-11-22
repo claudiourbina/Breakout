@@ -7,7 +7,7 @@ import main.java.logic.brick.WoodenBrick;
 
 import java.util.*;
 
-public abstract class AbstractLevel extends Observable implements Level, Observer, Runnable {
+public abstract class AbstractLevel extends Observable implements Level, Observer {
     private List<Brick> bricksList = new ArrayList<>();
     private String levelName;
     private Level nextLevel;
@@ -48,16 +48,10 @@ public abstract class AbstractLevel extends Observable implements Level, Observe
         }
     }
 
-    public void suscribe(Observer o){
-        addObserver(o);
-    }
-
     @Override
     public void update(Observable o, Object arg) {
         if (arg instanceof Brick) {
-            setChanged();
-            actualScore += ((Brick) arg).getScore();
-            notifyObservers();
+            (Brick)arg.accept(this);
         }
     }
 
