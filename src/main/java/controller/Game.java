@@ -2,7 +2,6 @@ package main.java.controller;
 
 import main.java.logic.Logic;
 import main.java.logic.brick.Brick;
-import main.java.logic.level.RealLevel;
 import main.java.logic.level.EmptyLevel;
 import main.java.logic.level.Level;
 

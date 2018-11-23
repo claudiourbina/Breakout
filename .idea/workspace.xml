@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a426daf-afa3-4ec8-bcae-5fbf51a5dee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/controller/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/controller/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/facade/HomeworkTwoFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/facade/HomeworkTwoFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/AbstractBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/AbstractBrick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/Brick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/Brick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/GlassBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/GlassBrick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/MetalBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/MetalBrick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/WoodenBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/brick/WoodenBrick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/level/AbstractLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/level/AbstractLevel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/level/EmptyLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/level/EmptyLevel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/level/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/level/Level.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/level/RealLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC3002-Tarea2/main/java/logic/level/RealLevel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/CC3002-Tarea2/test/BigTestT2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/CC3002-Tarea2/test/BigTestT2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/brick/Brick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/brick/Brick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/brick/GlassBrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/brick/GlassBrick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/brick/MetalBrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/brick/MetalBrick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/brick/WoodenBrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/brick/WoodenBrick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/level/AbstractLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/level/AbstractLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/level/EmptyLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/level/EmptyLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/level/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/level/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/level/RealLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/level/RealLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test/BigTestT2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/BigTestT2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,18 +14,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CC3002_Tarea2$test_in_CC3002_Tarea2.ic" NAME="test in CC3002-Tarea2 Coverage Results" MODIFIED="1542944900438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/CC3002_Tarea2$BigTestT2_testInitialSettings.ic" NAME="BigTestT2.testInitialSettings Coverage Results" MODIFIED="1542773152772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/CC3002_Tarea2$All_Features_in__test.ic" NAME="All Features in: test Coverage Results" MODIFIED="1542773040168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/CC3002_Tarea2$BigTestT2.ic" NAME="BigTestT2 Coverage Results" MODIFIED="1542945141944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CC3002_Tarea2$All_in_CC3002_Tarea2.ic" NAME="All in CC3002-Tarea2 Coverage Results" MODIFIED="1542945162503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CC3002_Tarea2$All_Features_in__test.ic" NAME="All Features in: test Coverage Results" MODIFIED="1542944876026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cucumber.api.cli.*</FILTER>
     </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="281" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="D:\GitHub Repositories" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="360935193">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -57,23 +48,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="18" />
-          <entry key="java" value="63" />
+          <entry key="java" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="18" />
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5450" />
+          <entry key="java" value="5486" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5450" />
+          <entry key="JAVA" value="5486" />
         </counts>
       </usages-collector>
     </session>
@@ -83,10 +74,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test/BigTestT2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="545" selection-start-line="545" selection-end-line="545" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#710#711#0" expanded="true" />
                 <element signature="e#755#756#0" expanded="true" />
                 <element signature="e#20970#20971#0" expanded="true" />
@@ -97,10 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/logic/Logic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1921">
-              <caret line="130" column="47" selection-start-line="130" selection-start-column="47" selection-end-line="130" selection-end-column="47" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,19 +99,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="333" selection-start-line="333" selection-end-line="333" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/Level.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+            <state relative-caret-position="-249">
+              <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,64 +111,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/Logic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/Brick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/AbstractLevel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="1536">
               <caret line="148" column="5" lean-forward="true" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3643#3644#0" expanded="true" />
-                <element signature="e#3677#3678#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,16 +142,16 @@
         <option value="$PROJECT_DIR$/src/main/java/logic/brick/GlassBrick.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/brick/MetalBrick.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/brick/WoodenBrick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/level/EmptyLevel.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/level/RealLevel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/Logic.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/brick/Brick.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/level/Level.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/level/AbstractLevel.java" />
         <option value="$PROJECT_DIR$/test/test/BigTestT2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/Logic.java" />
       </list>
     </option>
   </component>
@@ -339,9 +268,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542944495340" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542949017314" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ExercisesInJava-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -363,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BigTestT2">
+  <component name="RunManager" selected="JUnit.All in CC3002-Tarea2">
     <configuration name="All Features in: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/test" />
@@ -381,7 +310,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigTestT2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in CC3002-Tarea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CC3002-Tarea2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BigTestT2" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="CC3002-Tarea2" />
       <extension name="coverage">
         <pattern>
@@ -427,18 +364,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test in CC3002-Tarea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CC3002-Tarea2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Cucumber java.All Features in: test" />
-      <item itemvalue="JUnit.BigTestT2.testInitialSettings" />
       <item itemvalue="JUnit.BigTestT2" />
       <item itemvalue="JUnit.BigTestT2.testGamePlay" />
+      <item itemvalue="Cucumber java.All Features in: test" />
+      <item itemvalue="JUnit.BigTestT2.testInitialSettings" />
+      <item itemvalue="JUnit.test in CC3002-Tarea2" />
+      <item itemvalue="JUnit.All in CC3002-Tarea2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BigTestT2" />
+        <item itemvalue="JUnit.All in CC3002-Tarea2" />
+        <item itemvalue="JUnit.test in CC3002-Tarea2" />
+        <item itemvalue="Cucumber java.All Features in: test" />
         <item itemvalue="JUnit.BigTestT2.testGamePlay" />
         <item itemvalue="JUnit.BigTestT2.testInitialSettings" />
-        <item itemvalue="Cucumber java.All Features in: test" />
       </list>
     </recent_temporary>
   </component>
@@ -454,50 +408,49 @@
       <updated>1542763756805</updated>
       <workItem from="1542763758566" duration="6965000" />
       <workItem from="1542838316023" duration="18843000" />
-      <workItem from="1542932980107" duration="10215000" />
+      <workItem from="1542932980107" duration="12459000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BigTestT2 - 2018.11.23 at 00h 31m 49s.xml">
+    <history-entry file="BigTestT2 - 2018.11.23 at 00h 42m 52s.xml">
       <configuration name="BigTestT2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.23 at 00h 33m 32s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigTestT2 - 2018.11.23 at 00h 33m 36s.xml">
+    <history-entry file="BigTestT2 - 2018.11.23 at 00h 43m 21s.xml">
       <configuration name="BigTestT2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.23 at 00h 35m 18s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.23 at 00h 35m 31s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.23 at 00h 35m 41s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.23 at 00h 38m 12s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigTestT2_testGamePlay - 2018.11.23 at 00h 38m 31s.xml">
-      <configuration name="BigTestT2.testGamePlay" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigTestT2 - 2018.11.23 at 00h 39m 17s.xml">
+    <history-entry file="BigTestT2 - 2018.11.23 at 00h 44m 02s.xml">
       <configuration name="BigTestT2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BigTestT2 - 2018.11.23 at 00h 40m 47s.xml">
+    <history-entry file="All_Features_in__test - 2018.11.23 at 00h 47m 48s.xml">
+      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__test - 2018.11.23 at 00h 48m 00s.xml">
+      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_in_CC3002-Tarea2 - 2018.11.23 at 00h 48m 11s.xml">
+      <configuration name="test in CC3002-Tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_CC3002-Tarea2 - 2018.11.23 at 00h 48m 25s.xml">
+      <configuration name="test in CC3002-Tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigTestT2 - 2018.11.23 at 00h 50m 34s.xml">
       <configuration name="BigTestT2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigTestT2 - 2018.11.23 at 00h 52m 26s.xml">
+      <configuration name="BigTestT2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CC3002-Tarea2 - 2018.11.23 at 00h 52m 47s.xml">
+      <configuration name="All in CC3002-Tarea2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36023000" />
+    <option name="totallyTimeSpent" value="38267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25488997" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23349634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,7 +459,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -697,10 +650,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Logic.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="191">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -709,54 +669,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/Brick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="680">
           <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/brick/AbstractBrick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/AbstractLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="148" column="5" lean-forward="true" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3643#3644#0" expanded="true" />
-            <element signature="e#3677#3678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test/BigTestT2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="545" selection-start-line="545" selection-end-line="545" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#20970#20971#0" expanded="true" />
-            <element signature="e#21034#21035#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
         </state>
       </provider>
     </entry>
@@ -772,8 +689,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="130" column="47" selection-start-line="130" selection-start-column="47" selection-end-line="130" selection-end-column="47" />
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test/BigTestT2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#20970#20971#0" expanded="true" />
+            <element signature="e#21034#21035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Logic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -782,12 +719,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="-249">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/level/AbstractLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="148" column="5" lean-forward="true" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

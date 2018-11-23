@@ -3,7 +3,6 @@ package main.java.facade;
 import main.java.controller.Game;
 import main.java.logic.brick.Brick;
 import main.java.logic.level.RealLevel;
-import main.java.logic.level.EmptyLevel;
 import main.java.logic.level.Level;
 
 import java.util.List;

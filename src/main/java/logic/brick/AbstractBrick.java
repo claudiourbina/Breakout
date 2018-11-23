@@ -1,5 +1,4 @@
 package main.java.logic.brick;
-import main.java.logic.level.Level;
 
 import java.util.Observable;
 import java.util.Observer;
