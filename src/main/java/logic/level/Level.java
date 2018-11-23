@@ -1,14 +1,17 @@
 package main.java.logic.level;
 
+import main.java.controller.Game;
+import main.java.logic.Logic;
 import main.java.logic.brick.Brick;
 import java.util.List;
+import java.util.Observer;
 
 /**
  * Interface that represents the basics of a level to be played on.
  *
  * @author Juan-Pablo Silva
  */
-public interface Level {
+public interface Level extends Logic {
     /**
      * Gets the level's name. Each level must have a name.
      *
@@ -63,7 +66,7 @@ public interface Level {
      *
      * @param level the level to be added
      */
-    Level addPlayingLevel(Level level);
+    void addPlayingLevel(Level level);
 
     /**
      * Sets the reference for the next level of a level object.
@@ -73,4 +76,10 @@ public interface Level {
     void setNextLevel(Level level);
 
     int bricksAlive();
+
+    void addGlassScore();
+
+    void addMetalScore();
+
+    void addWoodenScore();
 }

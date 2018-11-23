@@ -4,7 +4,7 @@ import main.java.logic.level.Level;
 import java.util.Observable;
 import java.util.Observer;
 
-public abstract class AbstractBrick extends Observable implements Brick, Runnable{
+public abstract class AbstractBrick extends Observable implements Brick{
     private int lifePoints;
     private int score;
 
@@ -60,20 +60,8 @@ public abstract class AbstractBrick extends Observable implements Brick, Runnabl
     }
 
     @Override
-    public void run() {
-        try {
-            wait();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
     public void suscribe(Observer o){
         addObserver(o);
-    }
-
-    public void accept(Level level){
-        level.asd;
     }
 
 }

@@ -1,5 +1,8 @@
 package main.java.logic.brick;
 
+import main.java.logic.Logic;
+import main.java.logic.level.Level;
+
 /**
  * Interface that represents a brick object.
  * <p>
@@ -7,7 +10,7 @@ package main.java.logic.brick;
  *
  * @author Juan-Pablo Silva
  */
-public interface Brick {
+public interface Brick extends Logic {
     /**
      * Defines that a brick has been hit.
      * Implementations should consider the events that a hit to a brick can trigger.
@@ -34,4 +37,6 @@ public interface Brick {
      * @return the remaining hits to destroy de brick
      */
     int remainingHits();
+
+    void acceptLevel(Level level);
 }

@@ -33,8 +33,7 @@ public class HomeworkTwoFacade {
      * @see Level
      */
     public Level newLevelWithBricksFull(String name, int numberOfBricks, double probOfGlass, double probOfMetal, int seed) {
-        Level newLevel = new RealLevel(name, numberOfBricks, probOfGlass, probOfMetal, seed);
-        return newLevel;
+        return new RealLevel(name, numberOfBricks, probOfGlass, probOfMetal, seed);
     }
 
     /**
@@ -48,8 +47,7 @@ public class HomeworkTwoFacade {
      * @see Level
      */
     public Level newLevelWithBricksNoMetal(String name, int numberOfBricks, double probOfGlass, int seed) {
-        Level newLevel = new RealLevel(name, numberOfBricks, probOfGlass, 0, seed);
-        return newLevel;
+        return new RealLevel(name, numberOfBricks, probOfGlass, 0, seed);
     }
 
     /**
@@ -130,7 +128,7 @@ public class HomeworkTwoFacade {
      * @param level the level to be added
      */
     public void addPlayingLevel(Level level) {
-        game.getCurrentLevel().setNextLevel(level);
+        game.getCurrentLevel().addPlayingLevel(level);
     }
 
     /**

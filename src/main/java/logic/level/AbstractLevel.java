@@ -1,5 +1,6 @@
 package main.java.logic.level;
 
+import main.java.controller.Game;
 import main.java.logic.brick.Brick;
 import main.java.logic.brick.GlassBrick;
 import main.java.logic.brick.MetalBrick;
@@ -12,13 +13,12 @@ public abstract class AbstractLevel extends Observable implements Level, Observe
     private String levelName;
     private Level nextLevel;
     private int scoreLevel;
-    private int actualScore;
+    private int currentScore;
 
     public AbstractLevel(String name, int numberOfBricks, double probOfGlass, double probOfMetal, int seed){
         this.levelName = name;
         this.scoreLevel = 0;
-        this.nextLevel = null;
-        this.actualScore = 0;
+        this.currentScore = 0;
 
         if(numberOfBricks > 0){
             Random rand = new Random(seed);
@@ -51,7 +51,7 @@ public abstract class AbstractLevel extends Observable implements Level, Observe
     @Override
     public void update(Observable o, Object arg) {
         if (arg instanceof Brick) {
-            (Brick)arg.accept(this);
+            ((Brick) arg).acceptLevel(this);
         }
     }
 
@@ -82,7 +82,7 @@ public abstract class AbstractLevel extends Observable implements Level, Observe
 
     @Override
     public boolean hasNextLevel() {
-        return nextLevel != null;
+        return nextLevel.isPlayableLevel();
     }
 
     @Override
@@ -91,12 +91,11 @@ public abstract class AbstractLevel extends Observable implements Level, Observe
     }
 
     @Override
-    public Level addPlayingLevel(Level level) {
-        if(this.nextLevel == null){
-            setNextLevel(level);
-            return this;
+    public void addPlayingLevel(Level level) {
+        if(this.hasNextLevel()){
+            nextLevel.addPlayingLevel(level);
         }else{
-            return this.nextLevel.addPlayingLevel(level);
+            setNextLevel(level);
         }
     }
 
@@ -114,5 +113,38 @@ public abstract class AbstractLevel extends Observable implements Level, Observe
             }
         }
         return counter;
+    }
+
+    @Override
+    public void addWoodenScore(){
+        currentScore += 200;
+        if(currentScore == scoreLevel){
+            setChanged();
+            notifyObservers(this);
+        }
+    }
+
+    @Override
+    public void addGlassScore(){
+        currentScore += 50;
+        if(currentScore == scoreLevel){
+            setChanged();
+            notifyObservers(this);
+        }
+    }
+
+    @Override
+    public void addMetalScore(){
+        currentScore += 0;
+    }
+
+    @Override
+    public void suscribe(Observer o) {
+        addObserver(o);
+    }
+
+    @Override
+    public void acceptGame(Game game){
+        game.goNextLevel();
     }
 }
