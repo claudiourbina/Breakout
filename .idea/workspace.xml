@@ -34,12 +34,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="58" />
+          <entry key="JAVA/" value="1" />
+          <entry key="java" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="58" />
+          <entry key="UML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -65,11 +67,102 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/BigTest/BigTestT2.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_big/BigTest/BigTestT2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/main.java">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>main.java</OriginalElement>
+              <nodes>
+                <node x="160.0" y="955.0">main.java.logic.level.RealLevel</node>
+                <node x="1151.0" y="0.0">main.java.facade.HomeworkTwoFacade</node>
+                <node x="0.0" y="966.5">main.java.logic.level.EmptyLevel</node>
+                <node x="466.0" y="944.0">main.java.logic.brick.WoodenBrick</node>
+                <node x="690.0" y="211.0">main.java.logic.brick.Brick</node>
+                <node x="381.7416666666666" y="0.0">main.java.logic.Logic</node>
+                <node x="1227.1727828746177" y="470.27522935779825">main.java.controller.Game</node>
+                <node x="33.0" y="489.0">main.java.logic.level.AbstractLevel</node>
+                <node x="76.5" y="123.0">main.java.logic.level.Level</node>
+                <node x="686.0" y="944.0">main.java.logic.brick.MetalBrick</node>
+                <node x="906.0" y="944.0">main.java.logic.brick.GlassBrick</node>
+                <node x="686.5" y="598.5">main.java.logic.brick.AbstractBrick</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="main.java.logic.brick.GlassBrick" target="main.java.logic.brick.AbstractBrick">
+                  <point x="0.0" y="-48.0" />
+                  <point x="1006.0" y="919.0" />
+                  <point x="852.3333333333333" y="919.0" />
+                  <point x="66.33333333333326" y="93.0" />
+                </edge>
+                <edge source="main.java.logic.brick.WoodenBrick" target="main.java.logic.brick.AbstractBrick">
+                  <point x="0.0" y="-48.0" />
+                  <point x="566.0" y="919.0" />
+                  <point x="719.6666666666666" y="919.0" />
+                  <point x="-66.33333333333337" y="93.0" />
+                </edge>
+                <edge source="main.java.logic.level.Level" target="main.java.logic.Logic">
+                  <point x="0.0" y="-158.0" />
+                  <point x="186.5" y="98.0" />
+                  <point x="431.7416666666666" y="98.0" />
+                  <point x="-50.0" y="36.5" />
+                </edge>
+                <edge source="main.java.logic.brick.Brick" target="main.java.logic.Logic">
+                  <point x="0.0" y="-70.0" />
+                  <point x="786.0" y="98.0" />
+                  <point x="531.7416666666666" y="98.0" />
+                  <point x="50.0" y="36.5" />
+                </edge>
+                <edge source="main.java.logic.brick.AbstractBrick" target="main.java.logic.brick.Brick">
+                  <point x="0.0" y="-93.0" />
+                  <point x="0.0" y="70.0" />
+                </edge>
+                <edge source="main.java.logic.level.RealLevel" target="main.java.logic.level.AbstractLevel">
+                  <point x="0.0" y="-37.0" />
+                  <point x="303.0" y="919.0" />
+                  <point x="263.25" y="919.0" />
+                  <point x="76.75" y="202.5" />
+                </edge>
+                <edge source="main.java.logic.level.EmptyLevel" target="main.java.logic.level.AbstractLevel">
+                  <point x="0.0" y="-25.5" />
+                  <point x="70.0" y="919.0" />
+                  <point x="109.75" y="919.0" />
+                  <point x="-76.75" y="202.5" />
+                </edge>
+                <edge source="main.java.logic.level.AbstractLevel" target="main.java.logic.level.Level">
+                  <point x="0.0" y="-202.5" />
+                  <point x="0.0" y="158.0" />
+                </edge>
+                <edge source="main.java.logic.brick.MetalBrick" target="main.java.logic.brick.AbstractBrick">
+                  <point x="0.0" y="-48.0" />
+                  <point x="0.0" y="93.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6169811320754717" x="768.0" y="520.0" />
+              <SelectedNodes>
+                <node>main.java.controller.Game</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -78,7 +171,7 @@
         <entry file="file://$PROJECT_DIR$/test/test/BrickTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -160,50 +253,7 @@
             <path>
               <item name="CC3002-Tarea2" type="b2602c69:ProjectViewProjectNode" />
               <item name="CC3002-Tarea2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CC3002-Tarea2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC3002-Tarea2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CC3002-Tarea2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC3002-Tarea2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CC3002-Tarea2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC3002-Tarea2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="brick" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CC3002-Tarea2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC3002-Tarea2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="level" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CC3002-Tarea2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC3002-Tarea2" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CC3002-Tarea2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC3002-Tarea2" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="BigTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CC3002-Tarea2" type="b2602c69:ProjectViewProjectNode" />
@@ -221,7 +271,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543077529004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543077950105" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -229,6 +280,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Universidad\Clau\Metodologias\CC3002-Tarea2" />
+      <recent name="D:\Universidad\Clau\Metodologias\CC3002-Tarea2\out" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Universidad\Clau\Metodologias\CC3002-Tarea2\test\BigTest" />
     </key>
@@ -337,26 +395,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543069048021</updated>
-      <workItem from="1543069049488" duration="7897000" />
+      <workItem from="1543069049488" duration="8405000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_CC3002-Tarea2 - 2018.11.24 at 12h 19m 28s.xml">
-      <configuration name="All in CC3002-Tarea2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CC3002-Tarea2 - 2018.11.24 at 12h 22m 36s.xml">
-      <configuration name="All in CC3002-Tarea2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CC3002-Tarea2 - 2018.11.24 at 12h 24m 43s.xml">
-      <configuration name="All in CC3002-Tarea2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2018.11.24 at 12h 47m 50s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2018.11.24 at 12h 49m 34s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_CC3002-Tarea2 - 2018.11.24 at 12h 50m 17s.xml">
       <configuration name="All in CC3002-Tarea2" configurationId="JUnit" />
     </history-entry>
@@ -372,9 +415,24 @@
     <history-entry file="All_in_CC3002-Tarea2 - 2018.11.24 at 12h 57m 33s.xml">
       <configuration name="All in CC3002-Tarea2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BigTestT2 - 2018.11.24 at 13h 36m 20s.xml">
+      <configuration name="BigTestT2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CC3002-Tarea2 - 2018.11.24 at 13h 36m 34s.xml">
+      <configuration name="All in CC3002-Tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_in_CC3002-Tarea2 - 2018.11.24 at 13h 36m 49s.xml">
+      <configuration name="test in CC3002-Tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CC3002-Tarea2 - 2018.11.24 at 13h 38m 33s.xml">
+      <configuration name="All in CC3002-Tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CC3002-Tarea2 - 2018.11.24 at 13h 38m 55s.xml">
+      <configuration name="All in CC3002-Tarea2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7897000" />
+    <option name="totallyTimeSpent" value="8405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -385,7 +443,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12483221" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -394,7 +452,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,14 +614,138 @@
     <entry file="file://$PROJECT_DIR$/test/test/BrickTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/BigTest/BigTestT2.java">
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">junit</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">test</node>
+            <node x="" y="">org</node>
+            <node x="" y="">BigTest</node>
+            <node x="" y="">main</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8559837728194726" x="224.5" y="236.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_big/BigTest/BigTestT2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/main.java">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>main.java</OriginalElement>
+          <nodes>
+            <node x="160.0" y="955.0">main.java.logic.level.RealLevel</node>
+            <node x="1151.0" y="0.0">main.java.facade.HomeworkTwoFacade</node>
+            <node x="0.0" y="966.5">main.java.logic.level.EmptyLevel</node>
+            <node x="466.0" y="944.0">main.java.logic.brick.WoodenBrick</node>
+            <node x="690.0" y="211.0">main.java.logic.brick.Brick</node>
+            <node x="381.7416666666666" y="0.0">main.java.logic.Logic</node>
+            <node x="1227.1727828746177" y="470.27522935779825">main.java.controller.Game</node>
+            <node x="33.0" y="489.0">main.java.logic.level.AbstractLevel</node>
+            <node x="76.5" y="123.0">main.java.logic.level.Level</node>
+            <node x="686.0" y="944.0">main.java.logic.brick.MetalBrick</node>
+            <node x="906.0" y="944.0">main.java.logic.brick.GlassBrick</node>
+            <node x="686.5" y="598.5">main.java.logic.brick.AbstractBrick</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="main.java.logic.brick.GlassBrick" target="main.java.logic.brick.AbstractBrick">
+              <point x="0.0" y="-48.0" />
+              <point x="1006.0" y="919.0" />
+              <point x="852.3333333333333" y="919.0" />
+              <point x="66.33333333333326" y="93.0" />
+            </edge>
+            <edge source="main.java.logic.brick.WoodenBrick" target="main.java.logic.brick.AbstractBrick">
+              <point x="0.0" y="-48.0" />
+              <point x="566.0" y="919.0" />
+              <point x="719.6666666666666" y="919.0" />
+              <point x="-66.33333333333337" y="93.0" />
+            </edge>
+            <edge source="main.java.logic.level.Level" target="main.java.logic.Logic">
+              <point x="0.0" y="-158.0" />
+              <point x="186.5" y="98.0" />
+              <point x="431.7416666666666" y="98.0" />
+              <point x="-50.0" y="36.5" />
+            </edge>
+            <edge source="main.java.logic.brick.Brick" target="main.java.logic.Logic">
+              <point x="0.0" y="-70.0" />
+              <point x="786.0" y="98.0" />
+              <point x="531.7416666666666" y="98.0" />
+              <point x="50.0" y="36.5" />
+            </edge>
+            <edge source="main.java.logic.brick.AbstractBrick" target="main.java.logic.brick.Brick">
+              <point x="0.0" y="-93.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="main.java.logic.level.RealLevel" target="main.java.logic.level.AbstractLevel">
+              <point x="0.0" y="-37.0" />
+              <point x="303.0" y="919.0" />
+              <point x="263.25" y="919.0" />
+              <point x="76.75" y="202.5" />
+            </edge>
+            <edge source="main.java.logic.level.EmptyLevel" target="main.java.logic.level.AbstractLevel">
+              <point x="0.0" y="-25.5" />
+              <point x="70.0" y="919.0" />
+              <point x="109.75" y="919.0" />
+              <point x="-76.75" y="202.5" />
+            </edge>
+            <edge source="main.java.logic.level.AbstractLevel" target="main.java.logic.level.Level">
+              <point x="0.0" y="-202.5" />
+              <point x="0.0" y="158.0" />
+            </edge>
+            <edge source="main.java.logic.brick.MetalBrick" target="main.java.logic.brick.AbstractBrick">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="93.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6169811320754717" x="768.0" y="520.0" />
+          <SelectedNodes>
+            <node>main.java.controller.Game</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
