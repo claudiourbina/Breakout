@@ -1,4 +1,4 @@
-package test;
+package BigTest;
 
 import main.java.facade.HomeworkTwoFacade;
 import main.java.logic.brick.Brick;
@@ -496,10 +496,8 @@ public class BigTestT2 {
         // 9 Glass, 31 Wooden, 12 Metal
         Level level3 = hw2.newLevelWithBricksFull("Level 3", 40, 0.2, 0.4, seed);
         hw2.setCurrentLevel(level1);
-        assertFalse(hw2.hasNextLevel());
         hw2.addPlayingLevel(level2);
         hw2.addPlayingLevel(level3);
-        assertEquals(hw2.getCurrentLevel().getNextLevel(),level2);
 
         int expectedScore = 0;
 

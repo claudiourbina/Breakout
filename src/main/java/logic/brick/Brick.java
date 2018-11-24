@@ -3,12 +3,14 @@ package main.java.logic.brick;
 import main.java.logic.Logic;
 import main.java.logic.level.Level;
 
+import java.util.Observer;
+
 /**
  * Interface that represents a brick object.
  * <p>
  * All bricks should implement this interface.
  *
- * @author Juan-Pablo Silva
+ * @author Juan-Pablo Silva & Claudio Urbina
  */
 public interface Brick extends Logic {
     /**
@@ -38,5 +40,9 @@ public interface Brick extends Logic {
      */
     int remainingHits();
 
+    /**
+     * Accept a Level level to visit the Brick.
+     * @param level
+     */
     void acceptLevel(Level level);
 }
