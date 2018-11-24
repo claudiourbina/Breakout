@@ -48,3 +48,10 @@ Similar a la relación entre game y brick. Game contiene el nivel actual del jue
 
 ### Proxy
 
+Para conectar a futuro~~en la tarea 3~~ el GUI con el controlador (*Game*) se utilizó un proxy llamado Facade, que facilitará la interacción usuario-algoritmo.
+
+### Template
+
+Se utilizó el patron de diseño para crear distincas clases de Level y Bricks. Para ello se creo una interfaz general y posteriormente una clase abstracta que evita la duplicación de código.
+
+## 
