@@ -8,6 +8,9 @@ package main.java.logic.brick;
 
 import main.java.controller.Game;
 import main.java.logic.level.Level;
+<<<<<<< HEAD
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
+=======
 >>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 /**
  * Class that represents a wooden brick object.

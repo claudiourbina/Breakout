@@ -1,9 +1,15 @@
 package test;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import logic.brick.GlassBrick;
 import logic.brick.MetalBrick;
 import logic.brick.WoodenBrick;
+=======
+import main.java.logic.brick.GlassBrick;
+import main.java.logic.brick.MetalBrick;
+import main.java.logic.brick.WoodenBrick;
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 =======
 import main.java.logic.brick.GlassBrick;
 import main.java.logic.brick.MetalBrick;

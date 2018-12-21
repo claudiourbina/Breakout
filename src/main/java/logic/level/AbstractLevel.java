@@ -221,6 +221,7 @@ public abstract class AbstractLevel extends Observable implements Level, Observe
      */
     @Override
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void addSuperScore(){ setChanged(); this.notifyObservers(); }
 
 
@@ -229,6 +230,8 @@ public abstract class AbstractLevel extends Observable implements Level, Observe
      * @param o The observer.
      */
     @Override
+=======
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 =======
 >>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
     public void subscribe(Observer o) {

@@ -1,6 +1,7 @@
 package BigTest;
 
 <<<<<<< HEAD:test_big/BigTest/BigTestT2.java
+<<<<<<< HEAD:test_big/BigTest/BigTestT2.java
 import facade.HomeworkTwoFacade;
 import logic.brick.Brick;
 import logic.brick.GlassBrick;
@@ -8,6 +9,8 @@ import logic.brick.MetalBrick;
 import logic.brick.WoodenBrick;
 import logic.level.Level;
 =======
+=======
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0:test_big/BigTest/BigTestT2.java
 import main.java.facade.HomeworkTwoFacade;
 import main.java.logic.brick.Brick;
 import main.java.logic.brick.GlassBrick;

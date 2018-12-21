@@ -1,9 +1,12 @@
 package logic.level;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import logic.Logic;
 import logic.brick.Brick;
 =======
+=======
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 import main.java.logic.Logic;
 import main.java.logic.brick.Brick;
 >>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
@@ -105,11 +108,14 @@ public interface Level extends Logic {
      */
     int getCurrentScore();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     /**
      * Add the super brick score to the current score.
      */
     void addSuperScore();
+=======
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 =======
 >>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 }

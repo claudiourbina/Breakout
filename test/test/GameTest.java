@@ -1,15 +1,21 @@
 package test;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import controller.Game;
 import logic.brick.Brick;
 import logic.level.EmptyLevel;
 import logic.level.RealLevel;
 =======
+=======
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 import main.java.controller.Game;
 import main.java.logic.brick.Brick;
 import main.java.logic.level.EmptyLevel;
 import main.java.logic.level.RealLevel;
+<<<<<<< HEAD
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
+=======
 >>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 import org.junit.Before;
 import org.junit.Test;

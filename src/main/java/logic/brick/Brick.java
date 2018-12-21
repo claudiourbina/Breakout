@@ -7,6 +7,8 @@ import java.util.Observer;
 
 import java.util.Observer;
 
+import java.util.Observer;
+
 /**
  * Interface that represents a brick object.
  * <p>

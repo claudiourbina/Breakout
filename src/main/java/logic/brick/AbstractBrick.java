@@ -75,6 +75,7 @@ public abstract class AbstractBrick extends Observable implements Brick{
         addObserver(o);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @Override
     public boolean isSuperBrick(){return false;}
@@ -89,6 +90,8 @@ public abstract class AbstractBrick extends Observable implements Brick{
     public boolean isMetalBrick(){return false;}
 
 
+=======
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 =======
 >>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 }
