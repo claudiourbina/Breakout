@@ -1,10 +1,13 @@
-package main.java.logic.level;
+package logic.level;
 
-import main.java.controller.Game;
+<<<<<<< HEAD
+import logic.Logic;
+import logic.brick.Brick;
+=======
 import main.java.logic.Logic;
 import main.java.logic.brick.Brick;
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 import java.util.List;
-import java.util.Observer;
 
 /**
  * Interface that represents the basics of a level to be played on.
@@ -66,7 +69,7 @@ public interface Level extends Logic {
      *
      * @param level the level to be added
      */
-    void addPlayingLevel(Level level);
+    Level addPlayingLevel(Level level);
 
     /**
      * Sets the reference for the next level of a level object.
@@ -75,11 +78,38 @@ public interface Level extends Logic {
      */
     void setNextLevel(Level level);
 
+    /**
+     * Gets the number of brick alive in the level.
+     * @return the number of bricks alive.
+     */
     int bricksAlive();
 
+    /**
+     * Add the glass brick score to the current score.
+     */
     void addGlassScore();
 
+    /**
+     * Add the metal brick score to the current score.
+     */
     void addMetalScore();
 
+    /**
+     * Add the wooden brick score to the current score.
+     */
     void addWoodenScore();
+
+    /**
+     * Gets the current score of the player in the level.
+     * @return the current score.
+     */
+    int getCurrentScore();
+<<<<<<< HEAD
+
+    /**
+     * Add the super brick score to the current score.
+     */
+    void addSuperScore();
+=======
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 }

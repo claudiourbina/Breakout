@@ -1,14 +1,22 @@
-package main.java.logic.brick;
+package logic.brick;
 
 import java.util.Observable;
 import java.util.Observer;
-
+/**
+ * Abstract Class that represents a brick object.
+ *
+ * @author Juan-Pablo Silva & Claudio Urbina
+ */
 public abstract class AbstractBrick extends Observable implements Brick{
     private int lifePoints;
     private int score;
 
-
-    public AbstractBrick(int lp, int score){
+    /**
+     * Constructor of a Brick
+     * @param lp Life Points
+     * @param score Score
+     */
+    AbstractBrick(int lp, int score){
         this.lifePoints = lp;
         this.score = score;
     }
@@ -58,9 +66,29 @@ public abstract class AbstractBrick extends Observable implements Brick{
         return lifePoints;
     }
 
+    /**
+     * Allows a Level or a Game to Observe it.
+     * @param o The observer.
+     */
     @Override
-    public void suscribe(Observer o){
+    public void subscribe(Observer o){
         addObserver(o);
     }
+<<<<<<< HEAD
 
+    @Override
+    public boolean isSuperBrick(){return false;}
+
+    @Override
+    public boolean isGlassBrick(){return false;}
+
+    @Override
+    public boolean isWoodenBrick(){return false;}
+
+    @Override
+    public boolean isMetalBrick(){return false;}
+
+
+=======
+>>>>>>> 83d15590235311c6929ddb8476415091ccf75fc0
 }

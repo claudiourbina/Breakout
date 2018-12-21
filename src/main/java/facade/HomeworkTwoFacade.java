@@ -1,11 +1,12 @@
-package main.java.facade;
+package facade;
 
-import main.java.controller.Game;
-import main.java.logic.brick.Brick;
-import main.java.logic.level.RealLevel;
-import main.java.logic.level.Level;
+import controller.Game;
+import logic.brick.Brick;
+import logic.level.RealLevel;
+import logic.level.Level;
 
 import java.util.List;
+import java.util.Observer;
 
 /**
  * Facade class to expose the logic of the game to a GUI in the upcoming homework.
@@ -25,8 +26,8 @@ public class HomeworkTwoFacade {
      *
      * @param name           the name of the level
      * @param numberOfBricks the number of bricks in the level
-     * @param probOfGlass    the probability of a {@link main.java.logic.brick.GlassBrick}
-     * @param probOfMetal    the probability of a {@link main.java.logic.brick.MetalBrick}
+     * @param probOfGlass    the probability of a {@link logic.brick.GlassBrick}
+     * @param probOfMetal    the probability of a {@link logic.brick.MetalBrick}
      * @param seed           the seed for the random number generator
      * @return a new level determined by the parameters
      * @see Level
@@ -40,7 +41,7 @@ public class HomeworkTwoFacade {
      *
      * @param name           the name of the level
      * @param numberOfBricks the number of bricks in the level
-     * @param probOfGlass    the probability of a {@link main.java.logic.brick.GlassBrick}
+     * @param probOfGlass    the probability of a {@link logic.brick.GlassBrick}
      * @param seed           the seed for the random number generator
      * @return a new level determined by the parameters
      * @see Level
@@ -182,5 +183,9 @@ public class HomeworkTwoFacade {
      */
     public boolean winner() {
         return game.winner();
+    }
+
+    public void suscribe(Observer o){
+        game.suscribe(o);
     }
 }
