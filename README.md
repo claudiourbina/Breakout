@@ -64,3 +64,38 @@ Para probar el juego se puede realizar de dos maneras:
 
 * Abriendo el Proyecto en Intellij Idea y dandole RUN al archivo BreakoutApp.
 * Ejecutando el archivo CC3002-Breakout.jar para ejecutar el juego en el escritorio.
+
+### Controles
+
+Para jugar el juego es necesario conocer las teclas que manejan de este:
+
+* N: Agrega un nivel al juego (cada vez mas complicado).
+* A: Mueve la barra a la izquierda.
+* D: Mueve la barra a la derecha.
+* Espacio: Libera la bola cuando esta está sobre la barra.
+
+Al comenzar el juego, es necesario agregar al menos un nivel para comenzar a jugarlo.
+
+## Features agregadas
+
+### Sonidos
+
+El juego contiene sonidos distintos para:
+
+* La colisión entre la barra y la bola.
+* La colisión entre la bola y un brick.
+* La destrucción de un brick.
+
+Además, se música de fondo es propiedad de deadmau5.
+
+### Nuevo Brick
+
+El juego contiene un brick especial. El cual tiene la cualidad de que al ser destruido se avanza al siguiente nivel de manera inmediata, sin la necesidad de romper el resto de bricks. Este super brick es de color rojo y gira sobre su eje, dandole una distinción única sobre los demás bricks. Se necesitan de 20 hits para romperlo.
+
+### Animación en colisión
+
+Al momento que la bola colisiona con un brick, se libera una pequeña explosión en la posición de la colisión que se elimina posterior a 0.3 segundos.
+
+### Estados Distintos
+
+Los bricks cambian de estado (visualmente) al recibir una cierta cantidad de golpes. En el caso de un Glass Bricks, este se rompe inmediatamente, por lo cual no aplica. En el caso del Wooden Brick, el estado cambia posterior a dos golpes. En el caso del Metal Brick, cambia a los 15 golpes y a los 7 golpes. El Super Brick no cambia de estado, para darle dificultad al usuario sobre cuantos golpes necesita para pasar al siguiente nivel utilizandolo.
