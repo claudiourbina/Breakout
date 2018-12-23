@@ -58,7 +58,7 @@ Se utilizó el patron de diseño para crear distincas clases de Level y Bricks. 
 
 Los test implementados verifican el funcionamiento de los metodos explicados y los casos limites del juego. Para utilizarlos es necesario abrir el proyecto en Intellij Idea y *correr* el paquete *test*. El test contiene un 100% de coverage para los paquetes controller y logic.
 
-# Instrucciones de Uso
+## Instrucciones de Uso
 
 Para probar el juego se puede realizar de dos maneras: 
 
