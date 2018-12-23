@@ -48,7 +48,7 @@ Similar a la relación entre game y brick. Game contiene el nivel actual del jue
 
 ### Proxy
 
-Para conectar a futuro ~~en la tarea 3~~ el GUI con el controlador (*Game*) se utilizó un proxy llamado Facade, que facilitará la interacción usuario-algoritmo.
+Para conectar el GUI con el controlador (*Game*) se utilizó un proxy llamado Facade, que facilitará la interacción usuario-algoritmo.
 
 ### Template
 
@@ -57,3 +57,10 @@ Se utilizó el patron de diseño para crear distincas clases de Level y Bricks. 
 ## Test
 
 Los test implementados verifican el funcionamiento de los metodos explicados y los casos limites del juego. Para utilizarlos es necesario abrir el proyecto en Intellij Idea y *correr* el paquete *test*. El test contiene un 100% de coverage para los paquetes controller y logic.
+
+# Instrucciones de Uso
+
+Para probar el juego se puede realizar de dos maneras: 
+
+* Abriendo el Proyecto en Intellij Idea y dandole RUN al archivo BreakoutApp.
+* Ejecutando el archivo CC3002-Breakout.jar para ejecutar el juego en el escritorio.
